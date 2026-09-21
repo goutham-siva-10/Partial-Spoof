@@ -1,0 +1,7 @@
+torch>=2.5.0
+torchaudio>=2.5.0
+transformers>=4.40.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+# Note: scikit-learn removed -- metrics implemented in src/metrics.py (pure numpy)
