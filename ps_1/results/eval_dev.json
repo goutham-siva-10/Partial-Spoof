@@ -1,0 +1,24 @@
+{
+  "split": "dev",
+  "threshold": 0.5,
+  "checkpoint": "C:\\Users\\Goutham Siva\\Partial Spoof\\ps_1\\checkpoints\\best_model.pt",
+  "kernel_size": 7,
+  "min_duration": 0.16,
+  "frame_raw": {
+    "precision": 0.9089329341729465,
+    "recall": 0.9748047620089763,
+    "f1": 0.9407171225319161,
+    "auc": 0.9886939446593005,
+    "ap": 0.9901545569610335
+  },
+  "frame_smooth": {
+    "precision": 0.9081305153258328,
+    "recall": 0.9752403168436135,
+    "f1": 0.9404897605656855
+  },
+  "segment": {
+    "mean_iou": 0.8463447331580206,
+    "mean_onset_err": 0.05355781542228798,
+    "mean_offset_err": 0.05367047256933292
+  }
+}

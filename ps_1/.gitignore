@@ -1,0 +1,42 @@
+# Dataset directory
+dataset/
+*/dataset/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large model checkpoints & weights (>100MB cannot be pushed to GitHub)
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Large archive / audio files
+*.tar.gz
+*.tar.gz.*
+*.wav
+*.flac
+*.mp3
+
+# Plots and runtime artifacts
+results/plots/
+*.log
+
+# Operating System & IDE files
+desktop.ini
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
